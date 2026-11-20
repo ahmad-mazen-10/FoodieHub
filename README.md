@@ -69,47 +69,6 @@ src/
 
 The project follows a modular, MVC-style organization to separate application responsibilities and keep the codebase organized.
 
-## Installation & Setup
-
-### 1. Clone the Repository
-
-```bash
-git clone YOUR_REPOSITORY_URL
-```
-
-### 2. Navigate to the Project Directory
-
-```bash
-cd FoodieHub
-```
-
-### 3. Install Dependencies
-
-```bash
-npm install
-```
-
-### 4. Configure Environment Variables
-
-Create a `.env` file in the root directory and configure the required environment variables.
-
-```env
-PORT=YOUR_PORT
-MONGO_URI=YOUR_MONGODB_CONNECTION_STRING
-JWT_SECRET=YOUR_JWT_SECRET
-EMAIL_USER=YOUR_EMAIL
-EMAIL_PASSWORD=YOUR_EMAIL_PASSWORD
-```
-
-Make sure the environment variable names match those used in your application.
-
-### 5. Run the Application
-
-Use the development or production scripts defined in your `package.json`.
-
-```bash
-npm run YOUR_DEV_SCRIPT
-```
 
 ## API Modules
 
